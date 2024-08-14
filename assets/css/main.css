@@ -1,0 +1,59 @@
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+.skills {
+  height: 100%;
+  margin: 5rem 0;
+}
+.skills h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.hero {
+  height: 100%;
+  margin: 5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.proyects {
+  height: 100%;
+  margin: 5rem 0;
+}
+.proyects h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.contanct {
+  height: 100%;
+  margin: 5rem 0;
+}
+.contanct h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.contanct i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.skill-card {
+  display: flex;
+  padding: 1.5rem 4rem;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.skill-card i {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */

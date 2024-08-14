@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,197 @@
     <!--Bootstrap-->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
+
 <body>
     <!--NavBar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Nicolás Lepe</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="#">Mis habilidades</a>
+              <a class="nav-link" href="#">Mis proyectos</a>
+              <a class="nav-link" href="#">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!--Fin NavBar-->
+
+    <main class="container">
+        <!--Section Hero-->
+        <section class="hero">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img class="img-fluid" src="assets/img/developer.svg" alt="ilustracion-persona-en-computador">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h1>Soy Nicolás Lepe</h1>
+                    <h3>Desarrollador FontEnd</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quasi repellat libero molestias
+                        nostrum, iusto ipsam laudantium ad optio error repellendus quos beatae. Illo deleniti
+                        distinctio, voluptate quae tempore nostrum.</p>
+                    <button class="btn btn-primary" type="button">Contactame</button>
+                </div>
+            </div>
+        </section>
+        <!--Fin Section Hero-->
+
+        <!--Habilidades-->
+        <section class="skills">
+            <h2>Mis Habilidades</h2>
+
+            <div class="row">
+                <div class="d-flex col-6 col-md-3">
+                    <!--card-1-->
+                    <div class="skill-card w-100">
+                        <i class="fa-brands fa-html5"></i>
+                        <h5>HTML</h5>
+                    </div>
+                </div>
+                <div class="d-flex col-6 col-md-3">
+                    <!--card-2-->
+                    <div class="skill-card w-100">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h5>CSS</h5>
+                    </div>
+                </div>
+                <div class="d-flex col-6 col-md-3">
+                    <!--card-3-->
+                    <div class="skill-card w-100">
+                        <i class="fa-brands fa-sass"></i>
+                        <h5>Sass</h5>
+                    </div>
+                </div>
+                <div class="d-flex col-6 col-md-3">
+                    <!--card-4-->
+                    <div class="skill-card w-100">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <h5>BootStrap</h5>
+                    </div>
+                </div>
+                <div class="d-flex col-6 col-md-3">
+                    <!--card-5-->
+                    <div class="skill-card w-100">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <h5>Git</h5>
+                    </div>
+                </div>
+                <div class="d-flex col-6 col-md-3">
+                    <!--card-6-->
+                    <div class="skill-card w-100">
+                        <i class="fa-brands fa-github"></i>
+                        <h5>GitHub</h5>
+                    </div>
+                </div>
+                <div class="d-flex col-6 col-md-3">
+                    <!--card-7-->
+                    <div class="skill-card w-100">
+                        <i class="fa-brands fa-js"></i>
+                        <h5>JavaScript</h5>
+                    </div>
+                </div>
+                <div class="d-flex col-6 col-md-3">
+                    <!--card-8-->
+                    <div class="skill-card w-100">
+                        <i class="fa-brands fa-vuejs"></i>
+                        <h5>Vue</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="proyects">
+            <h2>Mis proyectos</h2>
+
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <img class="img-fluid" src="assets/img/meetcoffee.png" alt="Proyecto">
+                    <h4>Meet & Coffee</h4>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <img class="img-fluid" src="assets/img/meetcoffee.png" alt="Proyecto">
+                    <h4>Meet & Coffee</h4>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <img class="img-fluid" src="assets/img/meetcoffee.png" alt="Proyecto">
+                    <h4>Meet & Coffee</h4>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <img class="img-fluid" src="assets/img/meetcoffee.png" alt="Proyecto">
+                    <h4>Meet & Coffee</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="contanct">
+            <h2>Contactame</h2>
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="col-6 mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Ingresa tu apellido">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Ingresa tu email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Ingresa tu mensaje"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-primary" type="button">Enviar</button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-phone"></i>
+                        <h6>+569 6915 7692</h6>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h6>nikolaslepe32@gmail.com</h6>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h6>Nikolas Lepe</h6>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-brands fa-github"></i>
+                        <h6>MainEstres</h6>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-brands fa-instagram"></i>
+                        <h6>Nikolas Lepe</h6>
+                    </div>
+                </div>
 
 
 
+            </div>
+        </section>
+
+    </main>
 
 
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
