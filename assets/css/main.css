@@ -1,43 +1,44 @@
 @import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
-.skills {
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+#skills {
   height: 100%;
   margin: 5rem 0;
 }
-.skills h2 {
+#skills h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
-.hero {
+#hero {
   height: 100%;
   margin: 5rem 0;
   display: flex;
   align-items: center;
 }
 
-.proyects {
+#proyects {
   height: 100%;
   margin: 5rem 0;
 }
-.proyects h2 {
+#proyects h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
-.contanct {
+#contact {
   height: 100%;
   margin: 5rem 0;
 }
-.contanct h2 {
+#contact h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
 }
-.contanct i {
+#contact i {
   font-size: 1.2rem;
   margin-right: 1rem;
 }
@@ -45,7 +46,8 @@
 .skill-card {
   display: flex;
   padding: 1.5rem 4rem;
-  background-color: aliceblue;
+  background-color: black;
+  color: white;
   align-items: center;
   justify-content: center;
   margin: 1rem;
@@ -54,6 +56,19 @@
 .skill-card i {
   font-size: 2.5rem;
   margin-right: 1rem;
+}
+
+body {
+  background-color: #FCF8F3 !important;
+}
+
+.my-btn {
+  background-color: #C70039 !important;
+  border-color: #C70039 !important;
+}
+
+.my-nav {
+  background-color: #FFF5E0 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -15,7 +15,7 @@
 
 <body>
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar sticky-top navbar-expand-lg my-nav">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Nicolás Lepe</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +23,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link" href="#">Mis habilidades</a>
-              <a class="nav-link" href="#">Mis proyectos</a>
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link active" aria-current="page" href="#hero">Inicio</a>
+              <a class="nav-link" href="#skills">Mis habilidades</a>
+              <a class="nav-link" href="#proyects">Mis proyectos</a>
+              <a class="nav-link" href="#contact">Contacto</a>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@
 
     <main class="container">
         <!--Section Hero-->
-        <section class="hero">
+        <section id="hero">
             <div class="row">
                 <div class="col-12 col-md-6">
                     <img class="img-fluid" src="assets/img/developer.svg" alt="ilustracion-persona-en-computador">
@@ -46,14 +46,14 @@
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quasi repellat libero molestias
                         nostrum, iusto ipsam laudantium ad optio error repellendus quos beatae. Illo deleniti
                         distinctio, voluptate quae tempore nostrum.</p>
-                    <button class="btn btn-primary" type="button">Contactame</button>
+                    <button class="btn btn-primary my-btn" type="button">Contactame</button>
                 </div>
             </div>
         </section>
         <!--Fin Section Hero-->
 
         <!--Habilidades-->
-        <section class="skills">
+        <section id="skills">
             <h2>Mis Habilidades</h2>
 
             <div class="row">
@@ -116,7 +116,7 @@
             </div>
         </section>
 
-        <section class="proyects">
+        <section id="proyects">
             <h2>Mis proyectos</h2>
 
             <div class="row">
@@ -142,7 +142,7 @@
             </div>
         </section>
 
-        <section class="contanct">
+        <section id="contact">
             <h2>Contactame</h2>
 
             <div class="row">
@@ -166,7 +166,7 @@
                             placeholder="Ingresa tu mensaje"></textarea>
                     </div>
                     <div class="mb-3">
-                        <button class="btn btn-primary" type="button">Enviar</button>
+                        <button class="btn btn-primary my-btn" type="button">Enviar</button>
                     </div>
                 </div>
 
@@ -200,8 +200,9 @@
 
     </main>
 
-
-
+    <!--Mi JS-->
+    <script src="assets/js/script.js"></script>
+    <!--BootStrap-->
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
